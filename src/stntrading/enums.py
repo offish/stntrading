@@ -1,7 +1,7 @@
 import enum
 
 
-class EStatusCodes(enum.IntEnum):
+class EStateCodes(enum.IntEnum):
     READY_TO_BE_SENT = 0
     SENT = 1
     COMPLETED = 2
